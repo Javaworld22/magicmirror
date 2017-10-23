@@ -10,7 +10,7 @@ import android.app.Application;
 
 public class MagicMirror extends Application { //Application{
 
-    public static final String SERVER_BASE_URL = "http://www.magicmirror-herokuapp.com";
-    public static final String SIGN_UP_API = "/sign-up"; //method = post; params = username,gender,password
+    public static final String SERVER_BASE_URL = "http://magicmirrordotai.pythonanywhere.com";
+    public static final String SIGN_UP_API = "/sign_up"; //method = post; params = username,gender,password
 
 }
